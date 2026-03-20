@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    background: #f8f6f4;
+    font-family: "Times New Roman", serif;
+}
+
+/* 全体中央 */
+.thanks-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* 背景のThank you */
+.thanks-bg {
+    position: absolute;
+    font-size: 180px;
+    color: #f1ece7;
+    z-index: 0;
+}
+
+/* メッセージ */
+.thanks-message {
+    z-index: 1;
+    font-size: 20px;
+    color: #8b7969;
+    margin-bottom: 30px;
+}
+
+/* ボタン */
+.home-btn {
+    z-index: 1;
+    background: #8b7969;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 14px;
+}

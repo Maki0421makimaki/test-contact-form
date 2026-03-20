@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    background: #f1ece7;
+    font-family: "Times New Roman", serif;
+    color: #8b7969;
+}
+
+.header {
+    text-align: center;
+    padding: 18px 0;
+    border-bottom: 1px solid #e0d9d3;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 42px;
+    font-weight: 700;
+    color: #8b7969;
+}
+
+.title {
+    text-align: center;
+    margin: 40px 0 50px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #8b7969;
+}
+
+.confirm-container {
+    width: 780px;
+    margin: 0 auto 60px;
+}
+
+.confirm-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+}
+
+.confirm-table th,
+.confirm-table td {
+    border: 1px solid #e0d9d3;
+    padding: 18px 24px;
+    font-size: 15px;
+}
+
+.confirm-table th {
+    width: 30%;
+    background: #b9a99a;
+    color: #fff;
+    text-align: left;
+    font-weight: normal;
+}
+
+.confirm-table td {
+    width: 70%;
+    background: #fff;
+    color: #8b7969;
+}
+
+.button-group {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.submit-btn {
+    width: 120px;
+    height: 42px;
+    border: none;
+    background: #8b7969;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.back-btn {
+    border: none;
+    background: transparent;
+    color: #8b7969;
+    font-size: 16px;
+    text-decoration: underline;
+    cursor: pointer;
+}
